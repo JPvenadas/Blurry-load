@@ -1,0 +1,29 @@
+*{
+    box-sizing: border-box;
+    font-family: helvetica;
+}
+body{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    margin: 0;
+}
+.bg{
+   background: url(Pictures/342-3429225_moraine-lake.jpg) no-repeat center center/cover;
+   position: absolute;
+   background-size: cover;
+   top: 0px;
+   left: 0px;
+   width: 100vw;
+   height: 100vh;
+   z-index: -1;
+   filter: blur();
+}
+.loading-text{
+    font-size: 50px;
+    font-weight: bolder;
+    color: rgb(24, 53, 24);
+}
